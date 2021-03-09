@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<members>
+	<member>
+		<id>ghkdwjdrk123</id>
+		<password>123</password>
+		<name>홍길동</name>
+	</member>
+	<member>
+		<id>jerry1004</id>
+		<password>123</password>
+		<name>홍동</name>
+	</member>
+	<member>
+		<id>hanyang</id>
+		<password>123</password>
+		<name>홍길</name>
+	</member>
+</members>
