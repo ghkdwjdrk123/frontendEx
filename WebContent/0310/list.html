@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>게시판</title>
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+	<div class="container">
+
+		<div style="float: right;">
+			<b>싸피</b>님 환영합니다. 
+			<a href="#">로그아웃</a>
+		</div>
+
+		<h1 class="text-center">SSAFY 게시판</h1>
+	
+		<br>
+		
+		<div class="form-group row">
+			<div class="col-xs-6">
+				<button type="button" class="btn btn-outline-info btn-primary">글쓰기</button>
+			</div>
+			<div class="col-xs-2">
+		  		<select class="form-control" id="search_category">
+		    		<option>아이디</option>
+				    <option>제목</option>
+				    <option>내용</option>
+				    <option>제목+내용</option>
+				</select>
+			</div>
+			<div class="col-xs-3">
+				<input type="text" class="form-control" id="search" placeholder="검색어 입력.">
+			</div>
+			<div class="col-xs-1">
+				<button type="button" class="btn" style="background-color: gray; color: white;">검색</button>
+			</div>
+		</div>
+	
+		<br>
+	
+		<table class="table table-hover table-striped text-center table-bordered" style="border: 1px solid;">
+			<thead>
+				<tr>
+					<td><b>글번호</b></td>
+					<td><b>제목</b></td>
+					<td><b>작성자</b></td>
+					<td><b>조회수</b></td>
+					<td><strong>작성일</strong></td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>글번호</td>
+					<td>제목</td>
+					<td>작성자</td>
+					<td>조회수</td>
+					<td>작성일</td>
+				</tr>
+				<tr>
+					<td>글번호</td>
+					<td>제목</td>
+					<td>작성자</td>
+					<td>조회수</td>
+					<td>작성일</td>
+				</tr>
+				<tr>
+					<td>글번호</td>
+					<td>제목</td>
+					<td>작성자</td>
+					<td>조회수</td>
+					<td>작성일</td>
+				</tr>
+			</tbody>
+		</table>
+		
+		<hr>
+		
+		<div class="text-center">
+			<ul class="pagination justify-content-center">
+				<li><a href="#" style="margin-right: 5px;" class="text-secondary">최신</a></li>
+				<li><a href="#" style="margin-right: 5px;" class="text-secondary">이전</a></li>
+				<li><a href="#" style="margin-right: 5px;" class="text-secondary">1</a></li>
+				<li class="active"><a href="#" style="margin-right: 5px;" class="text-secondary">2</a></li>
+				<li><a href="#" style="margin-right: 5px;" class="text-secondary">3</a></li>
+				<li><a href="#" style="margin-right: 5px;" class="text-secondary">다음</a></li>
+				<li><a href="#" style="margin-right: 5px;" class="text-secondary">마지막</a></li>
+			</ul>
+		</div>
+	
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>글보기</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+	<div class="container">
+
+		<div style="float: right;">
+			<b>싸피</b>님 환영합니다. 
+			<a href="#">로그아웃</a>
+		</div>
+
+		<h1 class="text-center">SSAFY 게시판</h1>
+	
+		<br>
+		
+		<div class="form-group row">
+			<div class="col-xs-4">
+				<button type="button" class="btn btn-outline-info btn-primary">새글쓰기</button>
+				<button type="button" class="btn btn-outline-info btn-info">수정</button>
+				<button type="button" class="btn btn-outline-info btn-danger">삭제</button>
+			</div>
+			<div class="col-xs-8">
+			</div>
+		</div>
+	
+		<br>
+	
+		<table class="table table-hover text-center table-bordered" style="border: 1px solid;">
+			<thead>
+				<tr>
+					<td><b>제목</b></td>
+					<td colspan="6" align=left><b>글번호, 글제목</b></td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><b>작성자</b></td>
+					<td>싸피</td>
+					<td><b>조회수</b></td>
+					<td>00</td>
+					<td><b>작성일</b></td>
+					<td>0000.00.00</td>
+				</tr>
+				<tr>
+					<td colspan="7" height="80px" align=left valign=middle>글내용</td>
+				</tr>
+			</tbody>
+		</table>
+		
+		<div class="form-group row">
+			<div class="col-xs-4">
+			</div>
+			<div class="col-xs-4">
+				<button type="button" class="btn btn-info">최신목록</button>
+				<button type="button" class="btn btn-info">이전목록</button>
+			</div>
+			<div class="col-xs-4">
+			</div>
+		</div>
+	
+		<br>
+		
+		<div class="form-group row">
+			<div class="col-xs-11">
+				<div class="form-group">
+  						<textarea class="form-control" rows="5" id="comment"></textarea>
+				</div>
+			</div>
+			<div class="col-xs-1">
+				<button type="button" class="btn btn-primary" style="padding: 40px 25px;">작성</button>
+			</div>
+		</div>
+	
+	</div>
+
+</body>
+</html>
